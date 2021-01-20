@@ -1,0 +1,6 @@
+C:\Users\jashliao\Desktop\CS_UTC2Int64\CS_UTC2Int64\bin\Debug\CS_UTC2Int64.exe.config
+C:\Users\jashliao\Desktop\CS_UTC2Int64\CS_UTC2Int64\bin\Debug\CS_UTC2Int64.exe
+C:\Users\jashliao\Desktop\CS_UTC2Int64\CS_UTC2Int64\bin\Debug\CS_UTC2Int64.pdb
+C:\Users\jashliao\Desktop\CS_UTC2Int64\CS_UTC2Int64\obj\Debug\CS_UTC2Int64.csprojResolveAssemblyReference.cache
+C:\Users\jashliao\Desktop\CS_UTC2Int64\CS_UTC2Int64\obj\Debug\CS_UTC2Int64.exe
+C:\Users\jashliao\Desktop\CS_UTC2Int64\CS_UTC2Int64\obj\Debug\CS_UTC2Int64.pdb

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1611130796 source:c:\users\jashliao\desktop\cb_cpp_utc2seconds\main.cpp
+	<iostream>
+	<cstdio>
+	<time.h>
+
