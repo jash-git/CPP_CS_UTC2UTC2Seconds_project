@@ -34,9 +34,15 @@ namespace CS_UTC2Int64
             Console.WriteLine("{0} --> Unix Seconds: {1}", dto, dto.ToUnixTimeSeconds());
             */
 
-            DateTimeOffset dto = new DateTimeOffset(DateTime.Now);
-            Console.WriteLine("{0} --> Unix Seconds: {1}", dto, dto.ToUnixTimeSeconds());//long
-            Console.WriteLine("{0} --> Unix Milliseconds: {1}", dto, dto.ToUnixTimeMilliseconds());//long
+            DateTimeOffset dto00 = new DateTimeOffset(DateTime.Now);
+            Console.WriteLine("{0} --> Unix Seconds_00: {1}", dto00, dto00.ToUnixTimeSeconds());//long
+            Console.WriteLine("{0} --> Unix Milliseconds_00: {1}", dto00, dto00.ToUnixTimeMilliseconds());//long
+
+            Console.WriteLine("");
+
+            DateTimeOffset dto01 = new DateTimeOffset(DateTime.UtcNow);//https://currentmillis.com/
+            Console.WriteLine("{0} --> Unix Seconds_01: {1}", dto01, dto01.ToUnixTimeSeconds());//long
+            Console.WriteLine("{0} --> Unix Milliseconds_01: {1}", dto01, dto01.ToUnixTimeMilliseconds());//long
 
             Pause();
         }
