@@ -46,8 +46,13 @@ int main()
     printf("%s --> Unix Seconds_00: %lld\n", chrDateTimeBuf, rawtime);//Equal to C#
     printf("%s --> Unix Milliseconds_00: %lld\n", chrDateTimeBuf, (rawtime*1000)+((clock()%1000)));//Equal to C#
     printf("\n");
+
+    char chrNowTimeMilliseconds[16]={'\0'};
+    _i64toa(lngNowTimeMilliseconds, chrNowTimeMilliseconds, 10);
+
     printf("%s --> Unix Seconds_01: %lld\n", chrDateTimeBuf, lngNowTimeSeconds);//Equal to C#+200
     printf("%s --> Unix Milliseconds_01: %lld\n", chrDateTimeBuf, lngNowTimeMilliseconds);
+    printf("%s --> Unix Milliseconds_01: %s\n", chrDateTimeBuf, chrNowTimeMilliseconds);
     Pause();
     return 0;
 }
